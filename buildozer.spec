@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = vision
 
 # (str) Package name
-package.name = harish
+package.name = vision.com
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3=3.7.6,hostpython3=3.7.6,kivy,opencv-python,kivymd,pyttsx3
+requirements = python3=3.7.6,hostpython3=3.7.6,kivy=2.2.1,opencv-python=4.8.0.76,kivymd=1.1.1,pyttsx3=2.90
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,10 +64,10 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7.6
+osx.python_version = 3.11.2
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2.2.1
 
 #
 # Android specific
